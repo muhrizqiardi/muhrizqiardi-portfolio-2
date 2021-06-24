@@ -95,8 +95,8 @@ export default function Home(props) {
               </>
             </Popper>
           </nav>
-          <button className="lg:hidden" onClick={handleNav}>
-            <i className="bx bx-menu text-4xl z-40" />
+          <button className="lg:hidden" onClick={handleNav} alt="menu">
+            <i className="bx bx-menu text-4xl z-40"></i>
           </button>
         </div>
 
@@ -108,7 +108,7 @@ export default function Home(props) {
 
         {/* Image */}
         <div className="flex justify-center items-center m-5 lg:mr-7">
-          <img src="/assets/me.jpg" alt="" width="250px" height="250px" className="rounded-full drop-shadow-xl" />
+          <img src="/assets/me.jpg" alt="Home" width="250px" height="250px" className="rounded-full drop-shadow-xl" />
         </div>
 
         {/* Hero Text */}
@@ -171,7 +171,7 @@ export default function Home(props) {
           }
         </div>
         <h1 className="text-center text-lg text-blue-400 mt-10 lg:mb-10 hover:underline">
-          <a href="http://github.com/muhrizqiardi" target="_blank" >
+          <a href="http://github.com/muhrizqiardi" target="_blank" rel="noreferrer" rel="noopener">
             {props.lang === 'en' && <>Find out more at my <span className="font-bold"> <i class='bx bxl-github'></i> GitHub</span> <i class='bx bx-link-external' ></i></>}
             {props.lang === 'id' && <>Selebihnya bisa kunjungi <span className="font-bold"> <i class='bx bxl-github'></i> GitHub</span> <i class='bx bx-link-external' ></i> saya</>}
             {props.lang === 'jp' && <>詳しくは私の<span className="font-bold"> <i class='bx bxl-github'></i> GitHub</span> <i class='bx bx-link-external' ></i>をご覧ください。</>}
@@ -206,12 +206,12 @@ export default function Home(props) {
             </>
           }
           <div className="my-5 flex flex-wrap items-center justify-center">
-            <a target="_blank" href="https://github.com/muhrizqiardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-gray-600 px-4 py-3 m-2 text-white"><i class='bx bxl-github'></i> GitHub</a>
-            <a target="_blank" href="https://instagram.com/muhrizqiardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-red-700 px-4 py-3 m-2 text-white"><i class='bx bxl-instagram'></i> Instagram</a>
-            <a target="_blank" href="https://www.linkedin.com/in/muhammad-rizqi-ardiansyah-a072761b5/" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-blue-900 px-4 py-3 m-2 text-white"><i class='bx bxl-linkedin'></i> LinkedIn</a>
-            <a target="_blank" href="https://twitter.com/muh_rizqi_ardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-blue-400 px-4 py-3 m-2 text-white"><i class='bx bxl-twitter'></i> Twitter</a>
-            <a target="_blank" href="#" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-dark px-4 py-3 m-2 text-white"><i class='bx bx-file'></i> Resume</a>
-            <a target="_blank" href="mailto:muhrizqiardi@gmail.com" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-dark px-4 py-3 m-2 text-white"><i class='bx bx-at'></i> Email</a>
+            <a target="_blank" rel="noreferrer" rel="noopener" href="https://github.com/muhrizqiardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-gray-600 px-4 py-3 m-2 text-white"><i class='bx bxl-github'></i> GitHub</a>
+            <a target="_blank" rel="noreferrer" rel="noopener" href="https://instagram.com/muhrizqiardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-red-700 px-4 py-3 m-2 text-white"><i class='bx bxl-instagram'></i> Instagram</a>
+            <a target="_blank" rel="noreferrer" rel="noopener" href="https://www.linkedin.com/in/muhammad-rizqi-ardiansyah-a072761b5/" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-blue-900 px-4 py-3 m-2 text-white"><i class='bx bxl-linkedin'></i> LinkedIn</a>
+            <a target="_blank" rel="noreferrer" rel="noopener" href="https://twitter.com/muh_rizqi_ardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-blue-600 px-4 py-3 m-2 text-white"><i class='bx bxl-twitter'></i> Twitter</a>
+            <a target="_blank" rel="noreferrer" rel="noopener" href="#" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-dark px-4 py-3 m-2 text-white"><i class='bx bx-file'></i> Resume</a>
+            <a target="_blank" rel="noreferrer" rel="noopener" href="mailto:muhrizqiardi@gmail.com" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-dark px-4 py-3 m-2 text-white"><i class='bx bx-at'></i> Email</a>
           </div>
         </div>
       </section>
