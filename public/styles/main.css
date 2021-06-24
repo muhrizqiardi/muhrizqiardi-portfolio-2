@@ -8,8 +8,8 @@ body {
 }
 
 nav {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 80%, rgba(255, 255, 255, 0) 100%);
+  background: rgb(255, 251, 249);
+  background: linear-gradient(180deg, rgba(255, 251, 249, 1) 80%, rgba(255, 251, 249, 0) 100%);
 }
 
 #projects {
@@ -18,17 +18,17 @@ nav {
 }
 
 #contacts .contact-list .bump .hand-left {
-  animation: leftbump 5s;
+  animation: leftbump 2s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
 }
 #contacts .contact-list .bump .hand-right {
-  animation: rightbump 5s;
+  animation: rightbump 2s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
 }
 #contacts .contact-list .bump .boom {
-  animation: boom 5s;
+  animation: boom 2s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
 }
@@ -64,6 +64,9 @@ nav {
   }
 }
 
+#simple-popper {
+  z-index: 100;
+}
 
 @media (min-width: 1024px) {
   nav {

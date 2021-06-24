@@ -2,13 +2,12 @@ import { usePalette } from 'react-palette'
 import MultiClamp from 'react-multi-clamp';
 import Color from 'color';
 
-function Card({ title, body, image, tags }) {
+function Card({ title, body, image, tags, href }) {
   const { data, loading, error } = usePalette(image)
-  const mainColor = Color(data.muted).saturate(10).lighten(0.9).alpha(0.9).rgb();
-  console.log(mainColor)
+  const mainColor = Color(data.muted).saturate(10).lighten(0.9).alpha(1).rgb();
   return (
     <div
-      className="card rounded-md hover:underline shadow-md h-60 overflow-hidden cursor-pointer transition-transform duration-200"
+      className="card rounded-md shadow-md h-60 overflow-hidden cursor-pointer transition-transform duration-200"
       style={{
         backgroundImage: `url('${image}')`,
         backgroundSize: 'cover',
@@ -16,11 +15,12 @@ function Card({ title, body, image, tags }) {
       }}
     >
       <div
-        className="p-5 h-full w-full"
+        className="p-5 h-full w-full opacity-0 hover:opacity-100 transition-opacity duration-200"
         style={{
           background: `${mainColor}`,
         }}
       >
+        <a href={href}>
         <div className="card-desc ">
           <h3 className="text-xl mb-4 font-bold">
             {title}
@@ -46,6 +46,7 @@ function Card({ title, body, image, tags }) {
             </MultiClamp>
           </p>
         </div>
+        </a>
       </div>
     </div>
   );

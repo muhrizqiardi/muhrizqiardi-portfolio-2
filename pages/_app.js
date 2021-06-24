@@ -1,8 +1,10 @@
 import 'tailwindcss/tailwind.css'
 import '../public/styles/main.css'
 import Head from 'next/head'
+import configureLanguage from '../utils/language'
 
 function MyApp({ Component, pageProps }) {
+  
   return (
     <>
       <Head>
@@ -34,6 +36,7 @@ function MyApp({ Component, pageProps }) {
         {/* Icons */}
         <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
       </Head>
+      
       <Component {...pageProps} />
     </>
   )
