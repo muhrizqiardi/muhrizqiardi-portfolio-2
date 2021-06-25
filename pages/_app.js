@@ -35,6 +35,9 @@ function MyApp({ Component, pageProps }) {
 
         {/* Icons */}
         <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+
+        {/* Other CSS */}
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </Head>
       
       <Component {...pageProps} />

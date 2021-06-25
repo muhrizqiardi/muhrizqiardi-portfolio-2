@@ -52,11 +52,15 @@ export default function Home(props) {
 
   return (
     <>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
       <header id="header" className={`px-5 md:px-20 sticky top-0 z-40 ${scrollState ? " bg-light shadow-md" : ""}`}>
 
         {/* Navbar */}
         <div className={`navbar h-14 flex flex-row items-center justify-between py-2`}>
-          <a href="#header"><img src="/assets/signature_black.svg" alt="" className=" h-11" /></a>
+          <a href="#header"><img src="/assets/animated_signature.svg" alt="" className=" h-11" /></a>
           <nav
             className="fixed top-0 left-0 flex flex-col justify-center items-center h-96 w-screen lg:flex lg:flex-row lg:static lg:bg-transparent lg:w-max lg:h-auto uppercase"
             style={{
@@ -108,40 +112,40 @@ export default function Home(props) {
 
         {/* Image */}
         <div className="flex justify-center items-center m-5 lg:mr-7">
-          <img src="/assets/me.jpg" alt="Home" width="250px" height="250px" className="rounded-full drop-shadow-xl" />
+          <img id="hero-img" src="/assets/me.jpg" alt="Home" width="250px" height="250px" className="rounded-full drop-shadow-xl" />
         </div>
 
         {/* Hero Text */}
         {
           (props.lang === 'en') &&
           <div className="hero-text flex flex-col justify-center items-center text-center lg:items-start lg:text-left lg:ml-2">
-            <h3 className=" font-normal text-gray-900 text-2xl">Hi, I'm <br /></h3>
-            <h1 className="font-black text-3xl lg:text-6xl pb-3">Muhammad Rizqi Ardiansyah.</h1>
-            <p className="text-xl  font-normal text-gray-900 my-1 anim-2">
-              An <span className="font-bold text-black bg-primary">Informatics Engineering student</span> and a <span className="font-bold text-black bg-primary">web developer</span> passionate about technology.
+            <h3 id="greeting" className=" font-normal text-gray-900 text-2xl">Hi, I'm <br /></h3>
+            <h1 id="name" className="font-black text-3xl lg:text-6xl pb-3">Muhammad Rizqi Ardiansyah.</h1>
+            <p id="desc" className="text-xl  font-normal text-gray-900 my-1 anim-2">
+              An <span className="bg-text-1 font-bold text-black bg-primary">Informatics Engineering student</span> and a <span className="bg-text-2 font-bold text-black bg-primary">web developer</span> passionate about technology.
             </p>
           </div>
         }
         {
           (props.lang === 'id') &&
           <div className="hero-text flex flex-col justify-center items-center text-center lg:items-start lg:text-left lg:ml-2">
-            <h3 className=" font-normal text-gray-900 text-2xl">Halo, saya <br /></h3>
-            <h1 className="font-black text-3xl lg:text-6xl pb-3">Muhammad Rizqi Ardiansyah.</h1>
-            <p className="text-xl  font-normal text-gray-900 my-1 anim-2">
-              Saya adalah <span className="font-bold text-black bg-primary">Mahasiswa Teknik Informatika</span> dan seorang <span className="font-bold text-black bg-primary">web developer</span> yang sangat <span className=" italic">passionate</span> dengan teknologi.
+            <h3 id="greeting" className=" font-normal text-gray-900 text-2xl">Halo, saya <br /></h3>
+            <h1 id="name" className="font-black text-3xl lg:text-6xl pb-3">Muhammad Rizqi Ardiansyah.</h1>
+            <p id="desc" className="text-xl  font-normal text-gray-900 my-1 anim-2">
+              Saya adalah <span className="bg-text-1 font-bold text-black bg-primary">Mahasiswa Teknik Informatika</span> dan seorang <span className="bg-text-2 font-bold text-black bg-primary">web developer</span> yang sangat <span className=" italic">passionate</span> dengan teknologi.
             </p>
           </div>
         }
         {
           (props.lang === 'jp') &&
           <div className="hero-text flex flex-col justify-center items-center text-center lg:items-start lg:text-left lg:ml-2">
-            <h3 className=" font-normal text-gray-900 text-2xl">Hi, 私は <br /></h3>
-            <h1 className="font-black text-3xl lg:text-6xl pb-3">Muhammad Rizqi Ardiansyah.</h1>
-            <p className="text-md  font-normal text-gray-900 my-1 ">
+            <h3 id="greeting" className=" font-normal text-gray-900 text-2xl">Hi, 私は <br /></h3>
+            <h1 id="name" className="font-black text-3xl lg:text-6xl pb-3">Muhammad Rizqi Ardiansyah.</h1>
+            <p id="name-alt" className="text-md  font-normal text-gray-900 my-1 ">
               ムハマド・リズキ・アルディアンシャー
             </p>
-            <p className="text-xl  font-normal text-gray-900 my-1 ">
-              私は技術の世界に情熱を注ぐ<span className=" text-white bg-primary">情報工学学生</span>と<span className=" text-white bg-primary">ウェブ開発者</span>です。
+            <p id="desc" className="text-xl  font-normal text-gray-900 my-1 ">
+              私は技術の世界に情熱を注ぐ<span className="bg-text-1  text-white bg-primary">情報工学学生</span>と<span className="bg-text-2  text-white bg-primary">ウェブ開発者</span>です。
             </p>
           </div>
         }
@@ -152,7 +156,7 @@ export default function Home(props) {
       {/* Projects */}
       <section id="projects" className="bg-dark px-5 lg:px-36 py-5 lg:py-10">
         <div id="projects-section" className="relative bottom-20"></div>
-        <h1 className="text-center text-white text-2xl lg:text-3xl font-bold mb-5 lg:mb-10">
+        <h1 data-aos="fade-up" className="text-center text-white text-2xl lg:text-3xl font-bold mb-5 lg:mb-10">
           {props.lang === 'en' && 'Project'}
           {props.lang === 'id' && 'Proyek'}
           {props.lang === 'jp' && 'プロジェクト'}
@@ -181,9 +185,9 @@ export default function Home(props) {
 
       {/* Contacts */}
       <section id="contacts" className="bg-primary p-5 lg:px-48 lg:py-10 flex justify-center items-center min-h-screen">
-        <div className="contact-list rounded-xl bg-light p-10 lg:px-20 lg:py-10 w-full flex flex-col items-center justify-center text-center shadow-md ">
+        <div data-aos="fade-up" className="contact-list rounded-xl bg-light p-10 lg:px-20 lg:py-10 w-full flex flex-col items-center justify-center text-center shadow-md ">
 
-          <span className="bump text-5xl mb-4"><div className="hand-left inline-block">🤜</div><span className=" boom text-xl relative bottom-5 z-20">💥</span><div className="hand-right inline-block">🤛</div></span>
+          <span className="handshake text-5xl mb-4">🤝</span>
           {
             props.lang === 'en' &&
             <>

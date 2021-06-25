@@ -7,6 +7,7 @@ function Card({ title, body, image, tags, href }) {
   const mainColor = Color(data.muted).saturate(10).lighten(0.9).alpha(1).rgb();
   return (
     <div
+      data-aos="fade-up"
       className="card rounded-md shadow-md h-60 overflow-hidden cursor-pointer transition-transform duration-200"
       style={{
         backgroundImage: `url('${image}')`,
