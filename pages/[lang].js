@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import Card from '../components/Card'
 import Popper from '@material-ui/core/Popper';
 import axios from 'axios';
+import Link from 'next/link'
 
 export default function Home(props) {
   const [projectsData, setProjectsData] = useState([]);
@@ -60,7 +61,7 @@ export default function Home(props) {
 
         {/* Navbar */}
         <div className={`navbar h-14 flex flex-row items-center justify-between py-2`}>
-          <a href="#header"><img src="/assets/animated_signature.svg" alt="" className=" h-11" /></a>
+          <a href={`/${props.lang}`}><img src="/assets/animated_signature.svg" alt="" className=" h-11" /></a>
           <nav
             className="fixed top-0 left-0 flex flex-col justify-center items-center h-96 w-screen lg:flex lg:flex-row lg:static lg:bg-transparent lg:w-max lg:h-auto uppercase"
             style={{
@@ -69,16 +70,20 @@ export default function Home(props) {
               transitionDuration: (navState ? "500ms" : "0")
             }}
           >
-            <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" href={`#projects-section`}>
-              {props.lang === 'en' && 'Projects '}
-              {props.lang === 'id' && 'Proyek '}
-              {props.lang === 'jp' && 'プロジェクト '}
-            </a>
-            <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" href={`#contacts`}>
-              {props.lang === 'en' && 'Contact '}
-              {props.lang === 'id' && 'Kontak '}
-              {props.lang === 'jp' && '連絡 '}
-            </a>
+            <Link href="#projects-section" passHref>
+              <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" href={`#projects-section`}>
+                {props.lang === 'en' && 'Projects '}
+                {props.lang === 'id' && 'Proyek '}
+                {props.lang === 'jp' && 'プロジェクト '}
+              </a>
+            </Link>
+            <Link href="#contacts" passHref>
+              <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" href={`#contacts`}>
+                {props.lang === 'en' && 'Contact '}
+                {props.lang === 'id' && 'Kontak '}
+                {props.lang === 'jp' && '連絡 '}
+              </a>
+            </Link>
             <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" target="_blank" href={`https://muhrizqiardi-blog.vercel.app/`}>
               {props.lang === 'en' && 'Blog '}
               {props.lang === 'id' && 'Blog '}
@@ -92,9 +97,9 @@ export default function Home(props) {
             <Popper id={id} open={open} anchorEl={anchorEl}>
               <>
                 <div className="bg-white shadow-md text-center overflow-hidden mt-3 border border-gray-400 rounded flex flex-col justify-center items-center">
-                  <div className="hover:bg-gray-200 py-3 px-5 border-b border-gray w-full"><a href="/en">English</a></div>
-                  <div className="hover:bg-gray-200 py-3 px-5 border-b border-gray w-full"><a href="/id">Bahasa Indonesia</a></div>
-                  <div className="hover:bg-gray-200 py-3 px-5 border-b border-gray w-full"><a href="/jp">日本語</a></div>
+                  <div className="hover:bg-gray-200 py-3 px-5 border-b border-gray w-full"><Link href="/en" passHref><a href="/en">English</a></Link></div>
+                  <div className="hover:bg-gray-200 py-3 px-5 border-b border-gray w-full"><Link href="/id" passHref><a href="/id">Bahasa Indonesia</a></Link></div>
+                  <div className="hover:bg-gray-200 py-3 px-5 border-b border-gray w-full"><Link href="/jp" passHref><a href="/jp">日本語</a></Link></div>
                 </div>
               </>
             </Popper>
@@ -112,7 +117,7 @@ export default function Home(props) {
 
         {/* Image */}
         <div className="flex justify-center items-center m-5 lg:mr-7">
-          <img id="hero-img" src="/assets/me.jpg" alt="Home" width="250px" height="250px" className="rounded-full drop-shadow-xl" />
+          <img id="hero-img" src="/assets/me.jpg" alt="My Picture" width="250px" height="250px" className="rounded-full drop-shadow-xl" />
         </div>
 
         {/* Hero Text */}
