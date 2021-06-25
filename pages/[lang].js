@@ -83,9 +83,9 @@ export default function Home(props) {
               {props.lang === 'en' && 'Blog '}
               {props.lang === 'id' && 'Blog '}
               {props.lang === 'jp' && 'ブログ '}
-              <i class='bx bx-link-external' ></i>
+              <i className='bx bx-link-external' ></i>
             </a>
-            <button onClick={handlePopper} className="px-2 py-3 hover:bg-gray-300 rounded-md font-black uppercase"><i class='bx bx-globe relative ' style={{ top: 1 }}></i> {props.lang ? props.lang : "EN"} <i class='bx bx-caret-down' style={{ top: 1 }}></i></button>
+            <button onClick={handlePopper} className="px-2 py-3 hover:bg-gray-300 rounded-md font-black uppercase"><i className='bx bx-globe relative ' style={{ top: 1 }}></i> {props.lang ? props.lang : "EN"} <i className='bx bx-caret-down' style={{ top: 1 }}></i></button>
             <button onClick={handleNav} className="lg:hidden rounded-full my-5 bg-dark text-light w-10 h-10">
               <i className="bx bx-x text-4xl z-40" />
             </button>
@@ -176,9 +176,9 @@ export default function Home(props) {
         </div>
         <h1 className="text-center text-lg text-blue-400 mt-10 lg:mb-10 hover:underline">
           <a href="http://github.com/muhrizqiardi" target="_blank" rel="noreferrer" rel="noopener">
-            {props.lang === 'en' && <>Find out more at my <span className="font-bold"> <i class='bx bxl-github'></i> GitHub</span> <i class='bx bx-link-external' ></i></>}
-            {props.lang === 'id' && <>Selebihnya bisa kunjungi <span className="font-bold"> <i class='bx bxl-github'></i> GitHub</span> <i class='bx bx-link-external' ></i> saya</>}
-            {props.lang === 'jp' && <>詳しくは私の<span className="font-bold"> <i class='bx bxl-github'></i> GitHub</span> <i class='bx bx-link-external' ></i>をご覧ください。</>}
+            {props.lang === 'en' && <>Find out more at my <span className="font-bold"> <i className='bx bxl-github'></i> GitHub</span> <i className='bx bx-link-external' ></i></>}
+            {props.lang === 'id' && <>Selebihnya bisa kunjungi <span className="font-bold"> <i className='bx bxl-github'></i> GitHub</span> <i className='bx bx-link-external' ></i> saya</>}
+            {props.lang === 'jp' && <>詳しくは私の<span className="font-bold"> <i className='bx bxl-github'></i> GitHub</span> <i className='bx bx-link-external' ></i>をご覧ください。</>}
           </a>
         </h1>
       </section>
@@ -210,12 +210,12 @@ export default function Home(props) {
             </>
           }
           <div className="my-5 flex flex-wrap items-center justify-center">
-            <a target="_blank" rel="noreferrer" rel="noopener" href="https://github.com/muhrizqiardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-gray-600 px-4 py-3 m-2 text-white"><i class='bx bxl-github'></i> GitHub</a>
-            <a target="_blank" rel="noreferrer" rel="noopener" href="https://instagram.com/muhrizqiardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-red-700 px-4 py-3 m-2 text-white"><i class='bx bxl-instagram'></i> Instagram</a>
-            <a target="_blank" rel="noreferrer" rel="noopener" href="https://www.linkedin.com/in/muhammad-rizqi-ardiansyah-a072761b5/" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-blue-900 px-4 py-3 m-2 text-white"><i class='bx bxl-linkedin'></i> LinkedIn</a>
-            <a target="_blank" rel="noreferrer" rel="noopener" href="https://twitter.com/muh_rizqi_ardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-blue-600 px-4 py-3 m-2 text-white"><i class='bx bxl-twitter'></i> Twitter</a>
-            <a target="_blank" rel="noreferrer" rel="noopener" href="#" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-dark px-4 py-3 m-2 text-white"><i class='bx bx-file'></i> Resume</a>
-            <a target="_blank" rel="noreferrer" rel="noopener" href="mailto:muhrizqiardi@gmail.com" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-dark px-4 py-3 m-2 text-white"><i class='bx bx-at'></i> Email</a>
+            <a target="_blank" rel="noreferrer" rel="noopener" href="https://github.com/muhrizqiardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-gray-600 px-4 py-3 m-2 text-white"><i className='bx bxl-github'></i> GitHub</a>
+            <a target="_blank" rel="noreferrer" rel="noopener" href="https://instagram.com/muhrizqiardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-red-700 px-4 py-3 m-2 text-white"><i className='bx bxl-instagram'></i> Instagram</a>
+            <a target="_blank" rel="noreferrer" rel="noopener" href="https://www.linkedin.com/in/muhammad-rizqi-ardiansyah-a072761b5/" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-blue-900 px-4 py-3 m-2 text-white"><i className='bx bxl-linkedin'></i> LinkedIn</a>
+            <a target="_blank" rel="noreferrer" rel="noopener" href="https://twitter.com/muh_rizqi_ardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-blue-600 px-4 py-3 m-2 text-white"><i className='bx bxl-twitter'></i> Twitter</a>
+            <a target="_blank" rel="noreferrer" rel="noopener" href="#" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-dark px-4 py-3 m-2 text-white"><i className='bx bx-file'></i> Resume</a>
+            <a target="_blank" rel="noreferrer" rel="noopener" href="mailto:muhrizqiardi@gmail.com" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-dark px-4 py-3 m-2 text-white"><i className='bx bx-at'></i> Email</a>
           </div>
         </div>
       </section>

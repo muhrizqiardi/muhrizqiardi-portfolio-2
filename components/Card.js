@@ -30,7 +30,7 @@ function Card({ title, body, image, tags, href }) {
             {
               tags.map((tag) =>
                 <div className="bg-dark text-white text-xs rounded-md py-1 px-2 mr-2 mb-2">
-                  <i class={`bx bxl-${tag.toLowerCase()} relative`}
+                  <i className={`bx bxl-${tag.toLowerCase()} relative`}
                     style={{
                       top: 1
                     }}
