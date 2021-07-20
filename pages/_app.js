@@ -12,6 +12,9 @@ function MyApp({ Component, pageProps }) {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+        {/* Google Search Verification Meta Tag */}
+        <meta name="google-site-verification" content="OR942dxo1AftqI5Ux9hADCb-FmSCggB7c4wlZlcD-sI" />
+
         {/* META SEO */}
         <title>Muhammad Rizqi Ardiansyah | Portfolio Website</title>
         <meta name="title" content="Muhammad Rizqi Ardiansyah | Portfolio Website" />
