@@ -4,7 +4,6 @@ import Aos from 'aos';
 import Popper from '@material-ui/core/Popper';
 import axios from 'axios';
 import Link from 'next/link'
-import Image from 'next/image'
 import { useRouter } from 'next/router';
 
 
@@ -128,7 +127,7 @@ export default function Home(props) {
 
         {/* Image */}
         <div className="flex justify-center items-center m-5 lg:mr-7">
-          <Image id="hero-img" src="/assets/me.jpg" alt="My Picture" width="250px" height="250px" className="rounded-full drop-shadow-xl" />
+          <img id="hero-img" src="/assets/me.jpg" alt="My Picture" width="250px" height="250px" className="rounded-full drop-shadow-xl" />
         </div>
 
         {/* Hero Text */}
