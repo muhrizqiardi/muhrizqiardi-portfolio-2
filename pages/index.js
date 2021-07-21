@@ -177,10 +177,15 @@ export default function Home(props) {
                 {langState === 'jp' && '連絡 '}
               </a>
             </Link>
-            {!(langState === 'jp') &&
-              <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" href={`/createweb`}>
-                {langState === 'en' && 'Web Development'}
-                {langState === 'id' && 'Jasa Pembuatan Website '}
+            {langState === 'id' &&
+              <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" href={`/jasaweb`}>
+                Jasa Pembuatan Website{' '}
+                <i className='bx bx-link-external' ></i>
+              </a>
+            }
+            {langState === 'en' &&
+              <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" href={`/webdevelopment`}>
+                Create a Website{' '}
                 <i className='bx bx-link-external' ></i>
               </a>
             }
@@ -197,9 +202,9 @@ export default function Home(props) {
             <Popper id={id} open={open} anchorEl={anchorEl}>
               <>
                 <div className="bg-white shadow-md text-center overflow-hidden mt-3 border border-gray-400 rounded flex flex-col justify-center items-center">
-                  <div onClick={() => handleLangState('en')} className="hover:bg-gray-200 cursor-pointer py-3 px-5 border-b border-gray w-full">English</div>
-                  <div onClick={() => handleLangState('id')} className="hover:bg-gray-200 cursor-pointer py-3 px-5 border-b border-gray w-full">Bahasa Indonesia</div>
-                  <div onClick={() => handleLangState('jp')} className="hover:bg-gray-200 cursor-pointer py-3 px-5 border-b border-gray w-full">日本語</div>
+                  <div onClick={() => { handleLangState('en'); handlePopper() }} className="hover:bg-gray-200 cursor-pointer py-3 px-5 border-b border-gray w-full">English</div>
+                  <div onClick={() => { handleLangState('id'); handlePopper() }} className="hover:bg-gray-200 cursor-pointer py-3 px-5 border-b border-gray w-full">Bahasa Indonesia</div>
+                  <div onClick={() => { handleLangState('jp'); handlePopper() }} className="hover:bg-gray-200 cursor-pointer py-3 px-5 border-b border-gray w-full">日本語</div>
                 </div>
               </>
             </Popper>
@@ -264,12 +269,20 @@ export default function Home(props) {
           {langState === 'en' && "Looking to create a website? I can create it for you!"}
           {langState === 'id' && "Ingin membuat website? Saya bisa bantu!"}
         </p>
-        <a className="" href="/webdev">
-          <div className="px-3 py-2 mt-2 rounded-md bg-gray-800 hover:bg-gray-600 w-max text-white text-center">
-            {langState === 'en' && "Learn more"}
-            {langState === 'id' && "Pelajari lebih lanjut"}
-          </div>
-        </a>
+        {langState === 'en' &&
+          <a className="" href="/web-services">
+            <div className="px-3 py-2 mt-2 rounded-md bg-gray-800 hover:bg-gray-600 w-max text-white text-center">
+            Learn more
+            </div>
+          </a>
+        }
+        {langState === 'id' &&
+          <a className="" href="/jasaweb">
+            <div className="px-3 py-2 mt-2 rounded-md bg-gray-800 hover:bg-gray-600 w-max text-white text-center">
+            Pelajari lebih lanjut
+            </div>
+          </a>
+        }
       </section>}
 
       {/* Projects */}
