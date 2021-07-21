@@ -1,0 +1,63 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style type="text/css">
+         * {
+            opacity: 0.4
+         }
+         *:hover {
+            opacity:1;
+         }
+        .tri1 { stroke: #DB2777; animation: anim-1 4s ease infinite; transform-origin: center;}
+        .tri2 { stroke: #7C3AED; animation: anim-2 4s ease infinite; transform-origin: center;}
+        .circle1 { stroke: #D97706; animation: anim-1 4s ease infinite; transform-origin: center;}
+        .circle2 { stroke: #F59E0B; animation: anim-2 4s ease infinite; transform-origin: center;}
+        .rect1 { stroke: #10B981; animation: anim-3 4s ease infinite; }
+        .rect2 { stroke: #3B82F6; animation: anim-4 4s ease infinite; }
+
+        @keyframes anim-1 {
+           from { transform: translateY(7px); }
+           50% { transform: translateY(0px); }
+           to { transform: translateY(7px); }
+        }
+
+        @keyframes anim-2 {
+           from { transform: translateX(7px); }
+           50% { transform: translateX(0px); }
+           to { transform: translateX(7px); }
+        }
+        
+        @keyframes anim-3 {
+           from { transform: rotateZ(0deg); }
+           50% { transform: rotateZ(0.5deg); }
+           to { transform: rotateZ(0deg); }
+        }
+        
+        @keyframes anim-4 {
+           from { transform: rotateZ(0deg); }
+           50% { transform: rotateZ(-0.5deg); }
+           to { transform: rotateZ(0deg); }
+        }
+</style>
+<path class="tri1" d="M53 162L64.625 80L122 114.167L53 162Z" stroke-width="10"/>
+<path class="tri2" d="M506 563L517.625 481L575 515.167L506 563Z" stroke-width="10"/>
+<path class="tri1" d="M1477 181L1488.62 99L1546 133.167L1477 181Z" stroke-width="10"/>
+<path class="tri2" d="M1239 918L1250.62 836L1308 870.167L1239 918Z" stroke-width="10"/>
+<path class="tri1" d="M1691.5 412L1679.88 330L1622.5 364.167L1691.5 412Z" stroke-width="10"/>
+<path class="tri2" d="M506 382L493.364 300L431 334.167L506 382Z" stroke-width="10"/>
+<path class="tri1" d="M682 720.5L669.364 802.5L607 768.333L682 720.5Z" stroke-width="10"/>
+<path class="tri2" d="M1732 694L1719.36 612L1657 646.167L1732 694Z" stroke-width="10"/>
+<path class="tri1" d="M1391.5 548L1404.14 466L1466.5 500.167L1391.5 548Z" stroke-width="10"/>
+<circle class="circle1" cx="689" cy="110" r="25" stroke-width="10"/>
+<circle class="circle2" cx="117" cy="477" r="25" stroke-width="10"/>
+<circle class="circle1" cx="930" cy="451" r="25" stroke-width="10"/>
+<circle class="circle2" cx="930" cy="999" r="25" stroke-width="10"/>
+<circle class="circle1" cx="150" cy="899" r="25"  stroke-width="10"/>
+<circle class="circle2" cx="1200" cy="200" r="25"  stroke-width="10"/>
+<circle class="circle1" cx="1230" cy="544" r="25"  stroke-width="10"/>
+<circle class="circle2" cx="1600" cy="982" r="25"  stroke-width="10"/>
+<path class="rect1" d="M370.342 838.029L387.767 922.922L463.5 942.078V852.293L370.342 838.029Z" stroke-width="10"/>
+<path class="rect2" d="M993.158 610.029L975.733 694.922L900 714.078V624.293L993.158 610.029Z" stroke-width="10"/>
+<path class="rect1" d="M881.158 294.471L863.733 209.578L788 190.422V280.207L881.158 294.471Z" stroke-width="10"/>
+<path class="rect2" d="M381.612 688.346L371.336 660.202L319 652.761V682.957L381.612 688.346Z" stroke-width="10"/>
+<path class="rect1" d="M1515.89 854.346L1526.16 826.202L1578.5 818.761V848.957L1515.89 854.346Z" stroke-width="10"/>
+<path class="rect2" d="M218.388 240.346L228.664 212.202L281 204.761V234.957L218.388 240.346Z" stroke-width="10"/>
+</svg>
