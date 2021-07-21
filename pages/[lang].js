@@ -267,7 +267,7 @@ export default function Home(props) {
       <section id="projects" className="bg-dark px-5 lg:px-36 py-5 lg:py-10">
         <div id="projects-section" className="relative bottom-20"></div>
         <h1 data-aos="fade-up" className="text-center text-white text-2xl lg:text-3xl font-bold mb-5 lg:mb-10">
-          {props.lang === 'en' && 'Project'}
+          {props.lang === 'en' && 'Projects'}
           {props.lang === 'id' && 'Proyek'}
           {props.lang === 'jp' && 'プロジェクト'}
         </h1>
