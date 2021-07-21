@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="twitter:image" content="https://muhrizqiardi.github.io/assets/portfolio-thumbnail.png" />
 
         {/* Fonts */}
-        <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900&display=swap" rel="stylesheet" />
 
         {/* Icons */}
         <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
