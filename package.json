@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",
-    "build-and-export": "next build && next export",
+    "export": "next export && next-sitemap",
+    "build-and-export": "next build && next export && next-sitemap",
+    "build-sitemap": "next-sitemap",
     "start": "next start"
   },
   "dependencies": {
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.0.4",
+    "next-sitemap": "^1.6.140",
     "postcss": "^8.1.10",
     "tailwindcss": "^2.1.1"
   }
