@@ -139,7 +139,7 @@ export default function Home(props) {
 
   const open = Boolean(anchorEl);
   const id = open ? 'simple-popper' : undefined;
-  
+
   return (
     <>
       <header id="header" className={`px-5 md:px-20 sticky top-0 z-40 ${scrollState ? " bg-light shadow-md" : ""}`}>
@@ -148,7 +148,7 @@ export default function Home(props) {
         <div className={`navbar h-14 flex flex-row items-center justify-between py-2`}>
           <a href={`/${props.lang}`}><img src="/assets/animated_signature.svg" alt="" className=" h-11" /></a>
           <nav
-            className="fixed top-0 left-0 flex flex-col justify-center items-center h-96 w-screen lg:flex lg:flex-row lg:static lg:bg-transparent lg:w-max lg:h-auto uppercase"
+            className="fixed top-0 left-0 flex flex-col justify-center items-center h-96 w-screen lg:flex lg:flex-row lg:static lg:bg-transparent lg:w-max lg:h-auto text-sm text-gray-700 "
             style={{
               transform: mobileState ? (navState ? "translateY(0)" : "translateY(-120%)") : "translateY(0)",
               transition: 'transform',
@@ -169,13 +169,13 @@ export default function Home(props) {
                 {props.lang === 'jp' && '連絡 '}
               </a>
             </Link>
-            {!(props.lang === 'jp') && <Link href="#projects-section" passHref>
-              <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" href={`#projects-section`}>
+            {!(props.lang === 'jp') &&
+              <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" href={`/createweb`}>
                 {props.lang === 'en' && 'Web Development'}
                 {props.lang === 'id' && 'Jasa Pembuatan Website '}
                 <i className='bx bx-link-external' ></i>
               </a>
-            </Link>}
+            }
             <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" target="_blank" href={`https://muhrizqiardi-blog.vercel.app/`}>
               {props.lang === 'en' && 'Blog '}
               {props.lang === 'id' && 'Blog '}
