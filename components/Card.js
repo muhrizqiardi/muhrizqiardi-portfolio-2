@@ -1,5 +1,4 @@
 import { usePalette } from 'react-palette'
-import MultiClamp from 'react-multi-clamp';
 import Color from 'color';
 
 function Card({ title, body, image, tags, href }) {
@@ -45,9 +44,7 @@ function Card({ title, body, image, tags, href }) {
               }
             </div>
             <p className=" hover:underline">
-              <MultiClamp ellipsis="..." clamp={3}>
-                {body}
-              </MultiClamp>
+              {body}
             </p>
           </div>
         </a>
