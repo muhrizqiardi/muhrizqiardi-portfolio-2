@@ -8,15 +8,18 @@ function Card({ title, body, image, tags, href }) {
   return (
     <div
       data-aos="fade-up"
-      className="card rounded-md shadow-md h-80 overflow-hidden cursor-pointer transition-transform duration-200"
-      style={{
-        backgroundImage: `url('${image}')`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center'
-      }}
+      className="card rounded-md shadow-md overflow-hidden cursor-pointer transition-transform duration-200"
     >
       <div
-        className="p-5 h-full w-full my-20 transition-opacity duration-200"
+        className="h-40"
+        style={{
+          backgroundImage: `url('${image}')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
+        }}
+      ></div>
+      <div
+        className="p-5 h-full w-full transition-opacity duration-200"
         style={{
           background: `${mainColor}`,
         }}
