@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import Card from '../components/Card'
 import Aos from 'aos';
 import Popper from '@material-ui/core/Popper';
-import axios from 'axios';
 import Link from 'next/link'
 import { useRouter } from 'next/router';
 
@@ -324,7 +323,7 @@ export default function Home(props) {
             <a target="_blank" rel="noreferrer" rel="noopener" href="https://instagram.com/muhrizqiardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-red-700 px-4 py-3 m-2 text-white"><i className='bx bxl-instagram'></i> Instagram</a>
             <a target="_blank" rel="noreferrer" rel="noopener" href="https://www.linkedin.com/in/muhammad-rizqi-ardiansyah-a072761b5/" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-blue-900 px-4 py-3 m-2 text-white"><i className='bx bxl-linkedin'></i> LinkedIn</a>
             <a target="_blank" rel="noreferrer" rel="noopener" href="https://twitter.com/muh_rizqi_ardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-blue-600 px-4 py-3 m-2 text-white"><i className='bx bxl-twitter'></i> Twitter</a>
-            <a target="_blank" rel="noreferrer" rel="noopener" href="#" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-dark px-4 py-3 m-2 text-white"><i className='bx bx-file'></i> Resume</a>
+            <a target="_blank" rel="noreferrer" rel="noopener" href="/files/Resume.pdf" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-dark px-4 py-3 m-2 text-white"><i className='bx bx-file'></i> Resume</a>
             <a target="_blank" rel="noreferrer" rel="noopener" href="mailto:muhrizqiardi@gmail.com" className="transition duration-100 rounded cursor-pointer hover:scale-105 hover:bg-primary bg-dark px-4 py-3 m-2 text-white"><i className='bx bx-at'></i> Email</a>
           </div>
         </div>
