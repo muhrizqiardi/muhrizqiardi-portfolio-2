@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://muhrizqiardi.github.io
+
+# Sitemaps
+Sitemap: https://muhrizqiardi.github.io/sitemap.xml
