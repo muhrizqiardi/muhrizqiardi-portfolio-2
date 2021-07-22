@@ -18,19 +18,19 @@ function MyApp({ Component, pageProps }) {
         {/* META SEO */}
         <title>Muhammad Rizqi Ardiansyah | Portfolio Website</title>
         <meta name="title" content="Muhammad Rizqi Ardiansyah | Portfolio Website" />
-        <meta name="description" content="Hi, I'm Muhammad Rizqi Ardiansyah, a web developer looking for a partnership opportunity and an Informatics Engineering. Passionate and curious about technology!" />
+        <meta name="description" content="Hi, I'm Muhammad Rizqi Ardiansyah, a web developer and an informatics engineering student that are passionate and curious about technology!" />
         <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://muhrizqiardi.github.io" />
         <meta property="og:title" content="Muhammad Rizqi Ardiansyah | Portfolio Website" />
-        <meta property="og:description" content="Hi, I'm Muhammad Rizqi Ardiansyah, a web developer looking for a partnership opportunity and an Informatics Engineering. Passionate and curious about technology!" />
+        <meta property="og:description" content="Hi, I'm Muhammad Rizqi Ardiansyah, a web developer and an informatics engineering student that are passionate and curious about technology!" />
         <meta property="og:image" content="https://muhrizqiardi.github.io/assets/portfolio-thumbnail.png" />
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://muhrizqiardi.github.io" />
         <meta property="twitter:title" content="Muhammad Rizqi Ardiansyah | Portfolio Website" />
-        <meta property="twitter:description" content="Hi, I'm Muhammad Rizqi Ardiansyah, a web developer looking for a partnership opportunity and an Informatics Engineering. Passionate and curious about technology!" />
+        <meta property="twitter:description" content="Hi, I'm Muhammad Rizqi Ardiansyah, a web developer and an informatics engineering student that are passionate and curious about technology!" />
         <meta property="twitter:image" content="https://muhrizqiardi.github.io/assets/portfolio-thumbnail.png" />
 
         {/* Fonts */}
