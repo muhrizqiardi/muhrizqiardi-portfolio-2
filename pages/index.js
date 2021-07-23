@@ -98,7 +98,23 @@ export default function Home(props) {
         "Strapi"
       ],
       "href": "https://muhrizqiardi-blog.vercel.app/"
-    }
+    },
+    {
+      "title": "Quickstore",
+      "body": {
+        "en": "An ecommerce site made using Next.js and Commerce.js",
+        "id": "Situs ecommmerce dibuat menggunakan Next.js dan Commerce.js",
+        "jp": "私のブログサイトです。"
+      },
+      "image": "/assets/projects-thumbnail/quickstore-thumbnail.png",
+      "tags": [
+        "React",
+        "Next.js",
+        "Commerce.js",
+        "Bootstrap",
+      ],
+      "href": "https://muhrizqiardi-blog.vercel.app/"
+    },
   ];
   const [scrollState, setScrollState] = useState(false);
   const [mobileState, setMobileState] = useState(false);
