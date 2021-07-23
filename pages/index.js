@@ -21,7 +21,7 @@ export default function Home(props) {
         "Express",
         "MongoDB"
       ],
-      "href": "https://notefield.vercel.app/"
+      "href": "https://notefield.rzqjpg.xyz/"
     },
     {
       "title": "react-todo",
@@ -66,7 +66,7 @@ export default function Home(props) {
         "Sass",
         "Strapi"
       ],
-      "href": "https://koffee-khayalaan.vercel.app/"
+      "href": "https://koffee-khayalaan.rzqjpg.xyz/"
     },
     {
       "title": "muhrizqiardi.github.io",
@@ -113,7 +113,7 @@ export default function Home(props) {
         "Commerce.js",
         "Bootstrap",
       ],
-      "href": "https://muhrizqiardi-blog.vercel.app/"
+      "href": "https://quickstore.rzqjpg.xyz/"
     },
   ];
   const [scrollState, setScrollState] = useState(false);
