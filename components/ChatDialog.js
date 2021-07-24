@@ -24,7 +24,7 @@ function ChatDialog(props) {
         </div>
       </div>
       <div className="flex flex-col justify-end p-3 text-black " style={{ backgroundColor: "#E6DDD4" }}>
-        <div className="bg-white  rounded-lg rounded-tl-none text-sm p-3 w-64 drop-shadow-md ">
+        <div className="chat-bubble-1 bg-white  rounded-lg rounded-tl-none text-sm p-3 w-64 drop-shadow-md ">
           Halo, ada yang bisa dibantu?
         </div>
         <a href="https://wa.me/+6281210029357?text=Hi, saya tertarik dengan jasa pembuatan website Anda!" type="text" className="text-black bg-white hover:bg-gray-200 mt-36 drop-shadow-md rounded-full cursor-pointer text-sm py-3 px-5 flex flex-row justify-between items-center">
