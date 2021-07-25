@@ -315,7 +315,7 @@ export default function Home(props) {
       </section>}
 
       {/* Projects */}
-      <section id="projects" className="bg-dark px-5 lg:px-36 py-5 lg:py-10">
+      <section id="projects" className="bg-dark px-5 lg:px-36 py-5 lg:py-10 border-b-8 border-primary">
         <div id="projects-section" className="relative bottom-20"></div>
         <h1 data-aos="fade-up" className="text-center text-white text-2xl lg:text-3xl font-bold mb-5 lg:mb-10">
           {langState === 'en' && 'Projects'}
@@ -345,8 +345,8 @@ export default function Home(props) {
       </section>
 
       {/* Contacts */}
-      <section id="contacts" className="bg-primary p-5 lg:px-48 lg:py-10 flex justify-center items-center min-h-screen">
-        <div data-aos="fade-up" className="contact-list rounded-xl bg-light p-10 lg:px-20 lg:py-10 w-full flex flex-col items-center justify-center text-center shadow-md ">
+      <section id="contacts" className="bg-light p-5 lg:px-48 lg:py-10 flex justify-center items-center border-b-8 border-primary">
+        <div data-aos="fade-up" className="contact-list p-10 lg:px-20 lg:py-10 w-full flex flex-col items-center justify-center text-center ">
 
           <span className="handshake text-5xl mb-4">🤝</span>
           {
