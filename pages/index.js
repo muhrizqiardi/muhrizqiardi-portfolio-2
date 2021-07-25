@@ -106,7 +106,7 @@ export default function Home(props) {
         "id": "Situs ecommmerce dibuat menggunakan Next.js dan Commerce.js",
         "jp": "私のブログサイトです。"
       },
-      "image": "/assets/projects-thumbnail/quickstore-thumbnail.png",
+      "image": "/assets/projects-thumbnail/quickstore.png",
       "tags": [
         "React",
         "Next.js",
@@ -122,7 +122,7 @@ export default function Home(props) {
         "id": "Template untuk situs profil perusahaan/bisnis, dibuat menggunakan TailwindCSS",
         "jp": "企業サイトのテンプレートです。TailwindCSSを使用して作りました。"
       },
-      "image": "/assets/projects-thumbnail/quickstore-thumbnail.png",
+      "image": "/assets/projects-thumbnail/mora-inc.png",
       "tags": [
         "TailwindCSS",
       ],
