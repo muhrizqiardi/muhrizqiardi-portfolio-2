@@ -5,27 +5,28 @@ function Card({ title, body, image, tags, href }) {
   const { data, loading, error } = usePalette(image)
   const mainColor = Color(data.muted).saturate(10).lighten(0.9).alpha(1).rgb();
   return (
+
     <div
       data-aos="fade-up"
       className="card rounded-md shadow-md overflow-hidden cursor-pointer transition-transform duration-200"
     >
-      <div
-        className=" h-56"
-        style={{
-          backgroundImage: `url('${image}')`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
-        }}
-      ></div>
-      <div
-        className="p-5 h-full w-full transition-opacity duration-200"
-        style={{
-          background: `${mainColor}`,
-        }}
-      >
-        <a href={href}>
+      <a className="hover:underline" href={href}>
+        <div
+          className=" h-56"
+          style={{
+            backgroundImage: `url('${image}')`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center'
+          }}
+        ></div>
+        <div
+          className="p-5 h-full w-full transition-opacity duration-200"
+          style={{
+            background: `${mainColor}`,
+          }}
+        >
           <div className="card-desc ">
-            <h3 className="text-xl mb-4 font-bold hover:underline">
+            <h3 className="text-xl mb-4 font-bold">
               {title}
             </h3>
             <div className="flex flex-row flex-wrap mb-2">
@@ -43,13 +44,14 @@ function Card({ title, body, image, tags, href }) {
                 )
               }
             </div>
-            <p className=" hover:underline">
+            <p className="">
               {body}
             </p>
           </div>
-        </a>
-      </div>
+        </div>
+      </a>
     </div>
+
   );
 }
 export default Card;
