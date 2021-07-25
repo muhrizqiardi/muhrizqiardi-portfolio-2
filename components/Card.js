@@ -10,7 +10,7 @@ function Card({ title, body, image, tags, href }) {
       className="card rounded-md shadow-md overflow-hidden cursor-pointer transition-transform duration-200"
     >
       <div
-        className="h-40"
+        className=" h-56"
         style={{
           backgroundImage: `url('${image}')`,
           backgroundSize: 'cover',
