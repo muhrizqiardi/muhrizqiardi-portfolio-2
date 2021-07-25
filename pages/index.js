@@ -126,7 +126,7 @@ export default function Home(props) {
       "tags": [
         "TailwindCSS",
       ],
-      "href": "https://quickstore.rzqjpg.xyz/"
+      "href": "https://mora.rzqjpg.xyz/"
     },
   ];
   const [scrollState, setScrollState] = useState(false);
