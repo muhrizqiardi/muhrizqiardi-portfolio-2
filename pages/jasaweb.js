@@ -137,10 +137,10 @@ function JasaWeb(props) {
             </span>
             <div className="flex flex-col justify-start items-start">
               <h2 className="text-lg font-bold mb-1">
-                Search Engine Optimization
+                Konsultasi
               </h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, non.
+                Konsultasikan ide Anda
               </p>
             </div>
           </div>
@@ -150,10 +150,10 @@ function JasaWeb(props) {
             </span>
             <div className="flex flex-col justify-start items-start">
               <h2 className="text-lg font-bold mb-1">
-                Search Engine Optimization
+                Down Payment 
               </h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, non.
+                Setelah DP 50% terbayarkan, website mulai dikerjakan
               </p>
             </div>
           </div>
@@ -163,7 +163,33 @@ function JasaWeb(props) {
             </span>
             <div className="flex flex-col justify-start items-start">
               <h2 className="text-lg font-bold mb-1">
-                Search Engine Optimization
+                Demo Website &amp; Revisi
+              </h2>
+              <p>
+                Anda akan memperoleh <span className="font-bold">demo aplikasi</span> jika 
+              </p>
+            </div>
+          </div>
+          <div className="bg-white text-black rounded-md shadow mb-3 p-5 w-full flex flex-row items-center justify-start">
+            <span className="text-6xl w-24 text-center mr-5">
+              4
+            </span>
+            <div className="flex flex-col justify-start items-start">
+              <h2 className="text-lg font-bold mb-1">
+                Launching website
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, non.
+              </p>
+            </div>
+          </div>
+          <div className="bg-white text-black rounded-md shadow mb-3 p-5 w-full flex flex-row items-center justify-start">
+            <span className="text-6xl w-24 text-center mr-5">
+              5
+            </span>
+            <div className="flex flex-col justify-start items-start">
+              <h2 className="text-lg font-bold mb-1">
+                Maintenance
               </h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, non.
