@@ -115,12 +115,25 @@ export default function Home(props) {
       ],
       "href": "https://quickstore.rzqjpg.xyz/"
     },
+    {
+      "title": "Mora Inc. Website",
+      "body": {
+        "en": "A template for a company/business profile website, made using TailwindCSS.",
+        "id": "Template untuk situs profil perusahaan/bisnis, dibuat menggunakan TailwindCSS",
+        "jp": "企業サイトのテンプレートです。TailwindCSSを使用して作りました。"
+      },
+      "image": "/assets/projects-thumbnail/quickstore-thumbnail.png",
+      "tags": [
+        "TailwindCSS",
+      ],
+      "href": "https://quickstore.rzqjpg.xyz/"
+    },
   ];
   const [scrollState, setScrollState] = useState(false);
   const [mobileState, setMobileState] = useState(false);
   const [navState, setNavState] = useState(false);
   const [anchorEl, setAnchorEl] = useState(null);
-  const [langState, setLangState] = useState("");
+  const [langState, setLangState] = useState("en");
 
   const handlePopper = (event) => {
     setAnchorEl(anchorEl ? null : event.currentTarget);
