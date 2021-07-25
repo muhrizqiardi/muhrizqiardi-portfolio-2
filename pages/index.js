@@ -104,7 +104,7 @@ export default function Home(props) {
       "body": {
         "en": "An ecommerce site made using Next.js and Commerce.js",
         "id": "Situs ecommmerce dibuat menggunakan Next.js dan Commerce.js",
-        "jp": "私のブログサイトです。"
+        "jp": "Next.jsとCommerce.jsを使用して作ったオンラインショップのウェブサイトです。"
       },
       "image": "/assets/projects-thumbnail/quickstore.png",
       "tags": [
