@@ -247,7 +247,7 @@ export default function Home(props) {
       </header>
 
       {/* Hero */}
-      <section id="hero" className="px-5 md:px-20 flex flex-col lg:flex-row items-center justify-center pt-2 pb-10">
+      <section id="hero" className="px-5 md:px-20 pt-2 pb-10 grid grid-cols-1 lg:grid-cols-3">
 
         {/* Image */}
         <div className="flex justify-center items-center m-5 lg:mr-7">
@@ -257,7 +257,7 @@ export default function Home(props) {
         {/* Hero Text */}
         {
           (langState === 'en') &&
-          <div className="hero-text flex flex-col justify-center items-center text-center lg:items-start lg:text-left lg:ml-2">
+          <div className="hero-text col-span-2 flex flex-col justify-center items-center text-center lg:items-start lg:text-left lg:ml-2">
             <h3 id="greeting" className=" font-normal text-gray-900 text-2xl">Hi, I'm <br /></h3>
             <h1 id="name" className="font-black text-3xl lg:text-6xl pb-3">Muhammad Rizqi Ardiansyah.</h1>
             <p id="desc" className="text-xl  font-normal text-gray-900 my-1 anim-2">
@@ -267,7 +267,7 @@ export default function Home(props) {
         }
         {
           (langState === 'id') &&
-          <div className="hero-text flex flex-col justify-center items-center text-center lg:items-start lg:text-left lg:ml-2">
+          <div className="hero-text col-span-2 flex flex-col justify-center items-center text-center lg:items-start lg:text-left lg:ml-2">
             <h3 id="greeting" className=" font-normal text-gray-900 text-2xl">Halo, saya <br /></h3>
             <h1 id="name" className="font-black text-3xl lg:text-6xl pb-3">Muhammad Rizqi Ardiansyah.</h1>
             <p id="desc" className="text-xl  font-normal text-gray-900 my-1 anim-2">
@@ -278,7 +278,7 @@ export default function Home(props) {
         }
         {
           (langState === 'jp') &&
-          <div className="hero-text flex flex-col justify-center items-center text-center lg:items-start lg:text-left lg:ml-2">
+          <div className="hero-text col-span-2 flex flex-col justify-center items-center text-center lg:items-start lg:text-left lg:ml-2">
             <h3 id="greeting" className=" font-normal text-gray-900 text-2xl">Hi, 私は <br /></h3>
             <h1 id="name" className="font-black text-3xl lg:text-6xl pb-3">Muhammad Rizqi Ardiansyah.</h1>
             <p id="name-alt" className="text-md  font-normal text-gray-900 my-1 ">
