@@ -169,7 +169,8 @@ export default function Home(props) {
 
     // Initialize AOS 
     Aos.init({
-      offset: 0
+      offset: -100,
+      anchorPlacement: "top-bottom"
     })
   }, []);
 
@@ -247,7 +248,7 @@ export default function Home(props) {
       </header>
 
       {/* Hero */}
-      <section id="hero" className="px-5 md:px-20 pt-2 pb-10 grid grid-cols-1 lg:grid-cols-3">
+      <section id="hero" className="px-5 md:px-20 pt-2 pb-10 grid grid-cols-1 lg:grid-cols-3 border-b-8 border-primary">
 
         {/* Image */}
         <div className="flex justify-center items-center m-5 lg:mr-7">
@@ -317,7 +318,7 @@ export default function Home(props) {
       {/* Projects */}
       <section id="projects" className="bg-dark px-5 lg:px-36 py-5 lg:py-10 border-b-8 border-primary">
         <div id="projects-section" className="relative bottom-20"></div>
-        <h1 data-aos="fade-up" className="text-center text-white text-2xl lg:text-3xl font-bold mb-5 lg:mb-10">
+        <h1 className="text-center text-white text-2xl lg:text-3xl font-bold mb-5 lg:mb-10">
           {langState === 'en' && 'Projects'}
           {langState === 'id' && 'Proyek'}
           {langState === 'jp' && 'プロジェクト'}
