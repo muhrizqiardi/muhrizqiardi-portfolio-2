@@ -371,13 +371,17 @@ export default function Home(props) {
               <p>現在、<span className="bg-primary font-bold">フリーランス</span>や<span className="bg-primary font-bold">インターンシップ</span>の募集をしています。ご興味のある方は、ぜひご連絡ください。</p>
             </>
           }
-          <div className="my-5 flex flex-wrap items-center justify-center">
-            <a target="_blank" rel="noreferrer" rel="noopener" href="https://github.com/muhrizqiardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 bg-gray-600 px-4 py-3 m-2 text-white"><i className='bx bxl-github'></i> GitHub</a>
-            <a target="_blank" rel="noreferrer" rel="noopener" href="https://instagram.com/muhrizqiardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 bg-red-700 px-4 py-3 m-2 text-white"><i className='bx bxl-instagram'></i> Instagram</a>
-            <a target="_blank" rel="noreferrer" rel="noopener" href="https://www.linkedin.com/in/muhammad-rizqi-ardiansyah-a072761b5/" className="transition duration-100 rounded cursor-pointer hover:scale-105 bg-blue-900 px-4 py-3 m-2 text-white"><i className='bx bxl-linkedin'></i> LinkedIn</a>
-            <a target="_blank" rel="noreferrer" rel="noopener" href="https://twitter.com/muh_rizqi_ardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 bg-blue-600 px-4 py-3 m-2 text-white"><i className='bx bxl-twitter'></i> Twitter</a>
-            <a target="_blank" rel="noreferrer" rel="noopener" href="/files/Resume.pdf" className="transition duration-100 rounded cursor-pointer hover:scale-105 bg-dark px-4 py-3 m-2 text-white"><i className='bx bx-file'></i> Resume</a>
-            <a target="_blank" rel="noreferrer" rel="noopener" href="mailto:muhrizqiardi@gmail.com" className="transition duration-100 rounded cursor-pointer hover:scale-105 bg-dark px-4 py-3 m-2 text-white"><i className='bx bx-at'></i> Email</a>
+          <div className="divide-y-2">
+            <div className="mt-5 flex flex-wrap items-center justify-center">
+              <a target="_blank" rel="noreferrer" rel="noopener" href="https://github.com/muhrizqiardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 bg-gradient-to-tr from-gray-800 to-gray-600 px-4 py-3 m-2 text-white"><i className='bx bxl-github'></i> GitHub</a>
+              <a target="_blank" rel="noreferrer" rel="noopener" href="https://instagram.com/muhrizqiardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 bg-gradient-to-tr from-indigo-500 to-red-700 px-4 py-3 m-2 text-white"><i className='bx bxl-instagram'></i> Instagram</a>
+              <a target="_blank" rel="noreferrer" rel="noopener" href="https://www.linkedin.com/in/muhammad-rizqi-ardiansyah-a072761b5/" className="transition duration-100 rounded cursor-pointer hover:scale-105 bg-gradient-to-tr from-blue-900 to-blue-700 px-4 py-3 m-2 text-white"><i className='bx bxl-linkedin'></i> LinkedIn</a>
+              <a target="_blank" rel="noreferrer" rel="noopener" href="https://twitter.com/muh_rizqi_ardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 bg-gradient-to-tr from-blue-600 to-blue-400 px-4 py-3 m-2 text-white"><i className='bx bxl-twitter'></i> Twitter</a>
+            </div>
+            <div className="mb-5 flex flex-wrap items-center justify-center">
+              <a target="_blank" rel="noreferrer" rel="noopener" href="/files/Resume.pdf" className="transition duration-100 rounded cursor-pointer hover:scale-105 bg-dark px-4 py-3 m-2 text-white"><i className='bx bx-file'></i> Resume</a>
+              <a target="_blank" rel="noreferrer" rel="noopener" href="mailto:muhrizqiardi@gmail.com" className="transition duration-100 rounded cursor-pointer hover:scale-105 bg-dark px-4 py-3 m-2 text-white"><i className='bx bx-at'></i> Email</a>
+            </div>
           </div>
         </div>
       </section>
