@@ -21,7 +21,7 @@ export default function Home(props) {
         "Express",
         "MongoDB"
       ],
-      "href": "https://notefield.rzqjpg.xyz/"
+      "href": "https://notefield.vercel.app/"
     },
     {
       "title": "react-todo",
@@ -66,7 +66,7 @@ export default function Home(props) {
         "Sass",
         "Strapi"
       ],
-      "href": "https://koffee-khayalaan.rzqjpg.xyz/"
+      "href": "https://koffee-khayalaan.vercel.app/"
     },
     {
       "title": "muhrizqiardi.github.io",
@@ -113,7 +113,7 @@ export default function Home(props) {
         "Commerce.js",
         "Bootstrap",
       ],
-      "href": "https://quickstore.rzqjpg.xyz/"
+      "href": "https://quickstore-seven.vercel.app/"
     },
     {
       "title": "Mora Inc. Website",
@@ -126,7 +126,7 @@ export default function Home(props) {
       "tags": [
         "TailwindCSS",
       ],
-      "href": "https://mora.rzqjpg.xyz/"
+      "href": "https://tailwind-company-profile-page.vercel.app/"
     },
   ];
   const [scrollState, setScrollState] = useState(false);
