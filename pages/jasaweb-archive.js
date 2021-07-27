@@ -27,7 +27,7 @@ function JasaWeb(props) {
           <p className="text-lg text-center">Ingin memiliki <span className="bg-yellow-500 font-bold"> website profile perusahaan</span>? Ingin membuat <span className="bg-yellow-500 font-bold">website untuk perlombaan</span>? atau ingin membuat <span className="bg-yellow-500 font-bold">toko online</span>? Semua tersedia dengan harga yang terjangkau, mulai dari</p>
           <p className="text-3xl font-black my-2">Rp699.000</p>
           <p>(bisa nego)</p>
-          <a href="#kontak" className="rounded-md bg-yellow-500 cursor-pointer hover:scale-105 font-bold px-3 py-2 mt-7">
+          <a href="#kontak" className="rounded-xl bg-yellow-500 cursor-pointer hover:scale-105 font-bold px-3 py-2 mt-7">
             Hubungi Saya
           </a>
         </section>
