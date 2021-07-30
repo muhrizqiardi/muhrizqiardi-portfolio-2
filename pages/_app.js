@@ -2,9 +2,10 @@ import 'tailwindcss/tailwind.css'
 import '../public/styles/main.css'
 import Head from 'next/head'
 import configureLanguage from '../utils/language'
+import LanguageProvider from '../contexts/LanguageContext'
 
 function MyApp({ Component, pageProps }) {
-  
+
   return (
     <>
       <Head>
@@ -42,8 +43,9 @@ function MyApp({ Component, pageProps }) {
         {/* Other CSS */}
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </Head>
-      
-      <Component {...pageProps} />
+      <LanguageProvider>
+        <Component {...pageProps} />
+      </LanguageProvider>
     </>
   )
 }
