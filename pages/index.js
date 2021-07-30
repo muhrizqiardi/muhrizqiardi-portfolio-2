@@ -208,7 +208,7 @@ export default function Home(props) {
               </a>
             </Link>
             {langState === 'id' &&
-              <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" href={`/jasaweb`}>
+              <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" href={`https://justweb.muhrizqiardi.me`}>
                 Jasa Pembuatan Website{' '}
                 <i className='bx bx-link-external' ></i>
               </a>
@@ -300,14 +300,14 @@ export default function Home(props) {
           {langState === 'id' && "Ingin membuat website? Saya bisa bantu!"}
         </p>
         {langState === 'en' &&
-          <a className="" href="/web-services">
+          <a className="" href="https://justweb.muhrizqiardi.me">
             <div className="px-3 py-2 mt-2 rounded-md bg-gray-800 hover:bg-gray-600 w-max text-white text-center">
             Learn more
             </div>
           </a>
         }
         {langState === 'id' &&
-          <a className="" href="/jasaweb">
+          <a className="" href="https://justweb.muhrizqiardi.me">
             <div className="px-3 py-2 mt-2 rounded-md bg-gray-800 hover:bg-gray-600 w-max text-white text-center">
             Pelajari lebih lanjut
             </div>
