@@ -14,7 +14,7 @@ export default function Home(props) {
         "id": "Aplikasi catatan dibuat dengan library React serta Express untuk pembuatan API. Saya membuat ini karena saya merasa aplikasi catatan yang sudah ada di pasar belum mencukupi kebutuhan saya.",
         "jp": "ReactとExpressで構築したメモ帳のアプリ。私がこのアプリを構築した理由は現在にあるメモ帳アプリが物足りないと思ったからです。"
       },
-      "image": "/assets/projects-thumbnail/notefield.png",
+      "image": "https://res.cloudinary.com/dwfpjmsiq/image/upload/f_auto/notefield_wymcck.png",
       "tags": [
         "React",
         "Sass",
@@ -30,7 +30,7 @@ export default function Home(props) {
         "id": "Aplikasi to-do list dibuat menggunakan React dan Express.",
         "jp": "ReactとExpressで構築したToDoリストアプリ"
       },
-      "image": "/assets/projects-thumbnail/react-todo.png",
+      "image": "https://res.cloudinary.com/dwfpjmsiq/image/upload/f_auto/react-todo_pk7off.png",
       "tags": [
         "React",
         "Sass",
@@ -46,7 +46,7 @@ export default function Home(props) {
         "id": "Website yang dibuat berkolaborasi dengan tim untuk kompetisi web design.",
         "jp": "私のチームがウェブデザインコンペのために制作したウェブサイトです。"
       },
-      "image": "/assets/projects-thumbnail/creative-at-home.png",
+      "image": "https://res.cloudinary.com/dwfpjmsiq/image/upload/f_auto/creative-at-home_arxapt.png",
       "tags": [
         "JavaScript"
       ],
@@ -59,7 +59,7 @@ export default function Home(props) {
         "id": "Website toko online serta landing website untuk kafe fiksional. Dibuat dengan Next.js serta Strapi CMS.",
         "jp": "喫茶店のオンラインショップとランディングページ。Next.jsとStrapi CMSを使って制作しました。"
       },
-      "image": "/assets/projects-thumbnail/Koffee-Khayalaan.png",
+      "image": "https://res.cloudinary.com/dwfpjmsiq/image/upload/f_auto/Koffee-Khayalaan_j3ztnr.png",
       "tags": [
         "React",
         "Next.js",
@@ -75,7 +75,7 @@ export default function Home(props) {
         "id": "Website ini.",
         "jp": "現在のウェブサイトです。"
       },
-      "image": "/assets/projects-thumbnail/muhrizqiardi.github.io.png",
+      "image": "https://res.cloudinary.com/dwfpjmsiq/image/upload/f_auto/muhrizqiardi.github.io_oib5ui.png",
       "tags": [
         "React",
         "Next.js",
@@ -90,7 +90,7 @@ export default function Home(props) {
         "id": "Tempat saya membagikan opini dan pikiran saya.",
         "jp": "私のブログサイトです。"
       },
-      "image": "/assets/projects-thumbnail/my-blog.png",
+      "image": "https://res.cloudinary.com/dwfpjmsiq/image/upload/f_auto/my-blog_ohtunq.png",
       "tags": [
         "React",
         "Next.js",
@@ -106,7 +106,7 @@ export default function Home(props) {
         "id": "Situs ecommmerce dibuat menggunakan Next.js dan Commerce.js",
         "jp": "Next.jsとCommerce.jsを使用して作ったオンラインショップのウェブサイトです。"
       },
-      "image": "/assets/projects-thumbnail/quickstore.png",
+      "image": "https://res.cloudinary.com/dwfpjmsiq/image/upload/f_auto/quickstore_tym0hk.png",
       "tags": [
         "React",
         "Next.js",
@@ -122,7 +122,7 @@ export default function Home(props) {
         "id": "Template untuk situs profil perusahaan/bisnis, dibuat menggunakan TailwindCSS",
         "jp": "企業サイトのテンプレートです。TailwindCSSを使用して作りました。"
       },
-      "image": "/assets/projects-thumbnail/mora-inc.png",
+      "image": "https://res.cloudinary.com/dwfpjmsiq/image/upload/f_auto/mora-inc_qhx4bv.png",
       "tags": [
         "TailwindCSS",
       ],
