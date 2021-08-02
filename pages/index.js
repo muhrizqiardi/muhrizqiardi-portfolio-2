@@ -376,7 +376,7 @@ export default function Home(props) {
             <div className="mt-5 flex flex-wrap items-center justify-center">
               <a target="_blank" rel="noreferrer" rel="noopener" href="https://github.com/muhrizqiardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 bg-gradient-to-tr from-gray-800 to-gray-600 px-4 py-3 m-2 text-white"><i className='bx bxl-github'></i> GitHub</a>
               <a target="_blank" rel="noreferrer" rel="noopener" href="https://instagram.com/muhrizqiardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 bg-gradient-to-tr from-indigo-500 to-red-700 px-4 py-3 m-2 text-white"><i className='bx bxl-instagram'></i> Instagram</a>
-              <a target="_blank" rel="noreferrer" rel="noopener" href="https://www.linkedin.com/in/muhammad-rizqi-ardiansyah-a072761b5/" className="transition duration-100 rounded cursor-pointer hover:scale-105 bg-gradient-to-tr from-blue-900 to-blue-700 px-4 py-3 m-2 text-white"><i className='bx bxl-linkedin'></i> LinkedIn</a>
+              <a target="_blank" rel="noreferrer" rel="noopener" href="https://www.linkedin.com/in/muhrizqiardi/" className="transition duration-100 rounded cursor-pointer hover:scale-105 bg-gradient-to-tr from-blue-900 to-blue-700 px-4 py-3 m-2 text-white"><i className='bx bxl-linkedin'></i> LinkedIn</a>
               <a target="_blank" rel="noreferrer" rel="noopener" href="https://twitter.com/muh_rizqi_ardi" className="transition duration-100 rounded cursor-pointer hover:scale-105 bg-gradient-to-tr from-blue-600 to-blue-400 px-4 py-3 m-2 text-white"><i className='bx bxl-twitter'></i> Twitter</a>
             </div>
             <div className="mb-5 flex flex-wrap items-center justify-center">

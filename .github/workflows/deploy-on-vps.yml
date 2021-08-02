@@ -16,4 +16,3 @@ jobs:
             cd ~/projects/muhrizqiardi.me/
             git pull
             yarn build
-            pm2 restart @
