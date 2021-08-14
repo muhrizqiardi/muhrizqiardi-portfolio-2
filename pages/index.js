@@ -220,7 +220,7 @@ export default function Home(props) {
                 <i className='bx bx-link-external' ></i>
               </a>
             }
-            <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" target="_blank" href={`https://muhrizqiardi-blog.vercel.app/`}>
+            <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" target="_blank" href={`https://blog.muhrizqiardi.me/`}>
               {langState === 'en' && 'Blog '}
               {langState === 'id' && 'Blog '}
               {langState === 'jp' && 'ブログ '}
