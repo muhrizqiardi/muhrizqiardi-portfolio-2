@@ -85,22 +85,6 @@ export default function Home(props) {
       "href": "https://muhrizqiardi.github.io/"
     },
     {
-      "title": "My Blog",
-      "body": {
-        "en": "The place where I share my thougts.",
-        "id": "Tempat saya membagikan opini dan pikiran saya.",
-        "jp": "私のブログサイトです。"
-      },
-      "image": "https://res.cloudinary.com/dwfpjmsiq/image/upload/f_auto/my-blog_ohtunq.png",
-      "tags": [
-        "React",
-        "Next.js",
-        "Sass",
-        "Strapi"
-      ],
-      "href": "https://muhrizqiardi-blog.vercel.app/"
-    },
-    {
       "title": "Quickstore",
       "body": {
         "en": "An ecommerce site made using Next.js and Commerce.js",
