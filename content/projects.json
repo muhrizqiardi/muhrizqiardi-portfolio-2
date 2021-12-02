@@ -7,12 +7,7 @@
       "jp": "ReactとExpressで構築したメモ帳のアプリ。私がこのアプリを構築した理由は現在にあるメモ帳アプリが物足りないと思ったからです。"
     },
     "image": "/assets/projects-thumbnail/notefield.png",
-    "tags": [
-      "React",
-      "Sass",
-      "Express",
-      "MongoDB"
-    ],
+    "tags": ["React", "Sass", "Express", "MongoDB"],
     "href": "https://notefield.vercel.app/"
   },
   {
@@ -23,40 +18,29 @@
       "jp": "Reduxで作ったショッピングカートのアプリです。"
     },
     "image": "/assets/projects-thumbnail/shopbux.png",
-    "tags": [
-      "React",
-      "Redux",
-      "TailwindCSS"
-    ],
+    "tags": ["React", "Redux", "TailwindCSS"],
     "href": "https://shopbux.vercel.app/"
   },
   {
     "title": "react-todo",
     "body": {
       "en": "A to-do list app made with React library for the front-end, and Express for the API.",
-      "id":"Aplikasi to-do list dibuat menggunakan React dan Express.",
-      "jp":"ReactとExpressで構築したToDoリストアプリ"
+      "id": "Aplikasi to-do list dibuat menggunakan React dan Express.",
+      "jp": "ReactとExpressで構築したToDoリストアプリ"
     },
     "image": "/assets/projects-thumbnail/react-todo.png",
-    "tags": [
-      "React",
-      "Sass",
-      "Express",
-      "MongoDB"
-    ],
+    "tags": ["React", "Sass", "Express", "MongoDB"],
     "href": "https://muhrizqiardi-react-todo.herokuapp.com/"
   },
   {
     "title": "creative@home",
     "body": {
-      "en":"A website my team created for a web design competition.",
-      "id":"Website yang dibuat berkolaborasi dengan tim untuk kompetisi web design.",
-      "jp":"私のチームがウェブデザインコンペのために制作したウェブサイトです。"
+      "en": "A website my team created for a web design competition.",
+      "id": "Website yang dibuat berkolaborasi dengan tim untuk kompetisi web design.",
+      "jp": "私のチームがウェブデザインコンペのために制作したウェブサイトです。"
     },
     "image": "/assets/projects-thumbnail/creative-at-home.png",
-    "tags": [
-      "JavaScript"
-    ],
+    "tags": ["JavaScript"],
     "href": "https://varcode-project.github.io/creative-at-home/"
   },
   {
@@ -67,12 +51,7 @@
       "jp": "喫茶店のオンラインショップとランディングページ。Next.jsとStrapi CMSを使って制作しました。"
     },
     "image": "/assets/projects-thumbnail/Koffee-Khayalaan.png",
-    "tags": [
-      "React",
-      "Next.js",
-      "Sass",
-      "Strapi"
-    ],
+    "tags": ["React", "Next.js", "Sass", "Strapi"],
     "href": "https://koffee-khayalaan.vercel.app/"
   },
   {
@@ -83,27 +62,7 @@
       "jp": "現在のウェブサイトです。"
     },
     "image": "/assets/projects-thumbnail/muhrizqiardi.github.io.png",
-    "tags": [
-      "React",
-      "Next.js",
-      "TailwindCSS"
-    ],
+    "tags": ["React", "Next.js", "TailwindCSS"],
     "href": "https://muhrizqiardi.me/"
-  },
-  {
-    "title": "My Blog",
-    "body": {
-      "en": "The place where I share my thougts.",
-      "id": "Tempat saya membagikan opini dan pikiran saya.",
-      "jp": "私のブログサイトです。"
-    },
-    "image": "/assets/projects-thumbnail/my-blog.png",
-    "tags": [
-      "React",
-      "Next.js",
-      "Sass",
-      "Strapi"
-    ],
-    "href": "https://muhrizqiardi-blog.vercel.app/"
   }
 ]
