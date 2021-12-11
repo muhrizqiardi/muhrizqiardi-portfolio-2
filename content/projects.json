@@ -1,5 +1,16 @@
 [
   {
+    "title": "RESH — Read and Share",
+    "body": {
+      "en": "A web app for tracking your book reading progress, and also share your thoughts on a book.",
+      "id": "Aplikasi web untuk melacak progres Anda dalam membaca buku, serta membagikan ulasan Anda tentang buku tersebut.",
+      "jp": ""
+    },
+    "image": "/assets/projects-thumbnail/resh-project.png",
+    "tags": ["React", "Supabase", "Redux", "styled-components"],
+    "href": "https://resh-project.vercel.app/"
+  },
+  {
     "title": "Notefield",
     "body": {
       "en": "A note-taking app made with React libary for the front-end, and Express for the API. I made this because I feel like all note-taking app in the market isn't good enough for me.",

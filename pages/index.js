@@ -84,18 +84,18 @@ export default function Home(props) {
                 {langState === 'jp' && '連絡 '}
               </a>
             </Link>
-            {langState === 'id' &&
+            {/* {langState === 'id' &&
               <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" href={`https://justweb.muhrizqiardi.me`}>
                 Jasa Pembuatan Website{' '}
                 <i className='bx bx-link-external' ></i>
               </a>
-            }
-            {langState === 'en' &&
+            } */}
+            {/* {langState === 'en' &&
               <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" href={`https://justweb.muhrizqiardi.me`}>
                 Create a Website{' '}
                 <i className='bx bx-link-external' ></i>
               </a>
-            }
+            } */}
             <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" target="_blank" href={`https://blog.muhrizqiardi.me/`}>
               {langState === 'en' && 'Blog '}
               {langState === 'id' && 'Blog '}
@@ -171,7 +171,7 @@ export default function Home(props) {
       </section>
 
       {/* Web Dev Promo */}
-      {!(langState === 'jp') && <section className="promo bg-primary flex flex-col items-center p-5">
+      {/* {!(langState === 'jp') && <section className="promo bg-primary flex flex-col items-center p-5">
         <p className="  text-center">
           {langState === 'en' && "Looking to create a website? I can create it for you!"}
           {langState === 'id' && "Ingin membuat website? Saya bisa bantu!"}
@@ -190,7 +190,7 @@ export default function Home(props) {
             </div>
           </a>
         }
-      </section>}
+      </section>} */}
 
       {/* Projects */}
       <section id="projects" className="bg-dark px-5 lg:px-36 py-5 lg:py-10 border-b-8 border-primary">
