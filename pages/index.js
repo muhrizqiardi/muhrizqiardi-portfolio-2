@@ -265,7 +265,7 @@ export default function Home(props) {
 
       {/* Footer */}
       <footer className="px-20 py-9 bg-dark text-white text-center">
-        Copyright © 2021 Muhammad Rizqi Ardiansyah
+        Copyright © 2022 Muhammad Rizqi Ardiansyah
       </footer>
     </>
   )
