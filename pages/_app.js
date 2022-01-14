@@ -22,16 +22,16 @@ function MyApp({ Component, pageProps }) {
         <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://muhrizqiardi.github.io" />
+        <meta property="og:url" content="https://muhrizqiardi.me" />
         <meta property="og:title" content="Muhammad Rizqi Ardiansyah | Portfolio Website" />
         <meta property="og:description" content="Hi, I'm Muhammad Rizqi Ardiansyah, a web developer and an informatics engineering student that are passionate and curious about technology!" />
-        <meta property="og:image" content="https://muhrizqiardi.github.io/assets/portfolio-thumbnail.png" />
+        <meta property="og:image" content="https://muhrizqiardi.me/assets/portfolio-thumbnail.png" />
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://muhrizqiardi.github.io" />
+        <meta property="twitter:url" content="https://muhrizqiardi.me" />
         <meta property="twitter:title" content="Muhammad Rizqi Ardiansyah | Portfolio Website" />
         <meta property="twitter:description" content="Hi, I'm Muhammad Rizqi Ardiansyah, a web developer and an informatics engineering student that are passionate and curious about technology!" />
-        <meta property="twitter:image" content="https://muhrizqiardi.github.io/assets/portfolio-thumbnail.png" />
+        <meta property="twitter:image" content="https://muhrizqiardi.me/assets/portfolio-thumbnail.png" />
 
         {/* Fonts */}
         <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900&display=swap" rel="stylesheet" />
