@@ -7,7 +7,6 @@ function Card({ title, body, image, tags, href }) {
   return (
 
     <div
-      data-aos="fade-up"
       className="card rounded-md shadow-md overflow-hidden cursor-pointer transition-transform duration-200"
     >
       <a className="hover:underline" href={href}>

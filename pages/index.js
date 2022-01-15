@@ -224,7 +224,7 @@ export default function Home(props) {
 
       {/* Contacts */}
       <section id="contacts" className="bg-light p-5 lg:px-48 lg:py-10 flex justify-center items-center border-b-8 border-primary">
-        <div data-aos="fade-up" className="contact-list p-10 lg:px-20 lg:py-10 w-full flex flex-col items-center justify-center text-center ">
+        <div className="contact-list p-10 lg:px-20 lg:py-10 w-full flex flex-col items-center justify-center text-center ">
 
           <span className="handshake text-5xl mb-4">🤝</span>
           {
