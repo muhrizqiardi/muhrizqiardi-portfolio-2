@@ -45,10 +45,10 @@ export default function Home(props) {
     setLangState(userLang);
 
     // Initialize AOS 
-    Aos.init({
-      offset: -100,
-      anchorPlacement: "top-bottom"
-    })
+    // Aos.init({
+    //   offset: -100,
+    //   anchorPlacement: "top-bottom"
+    // })
   }, []);
 
 
