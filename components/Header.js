@@ -29,13 +29,13 @@ function Header(props) {
               {router.locale === 'jp' && 'プロジェクト '}
             </a>
           </Link>
-          <Link href="#contacts" passHref>
+          {false && <Link href="#contacts" passHref>
             <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" href={`#contacts`}>
               {router.locale === 'en' && 'Contact '}
               {router.locale === 'id' && 'Kontak '}
               {router.locale === 'jp' && '連絡 '}
             </a>
-          </Link>
+          </Link>}
           {!(router.locale === 'jp') && <Link href="#projects-section" passHref>
             <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" href={`#projects-section`}>
               {router.locale === 'en' && 'Web Development'}

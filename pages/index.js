@@ -77,13 +77,13 @@ export default function Home(props) {
                 {langState === 'jp' && 'プロジェクト '}
               </a>
             </Link>
-            <Link href="#contacts" passHref>
+            {false && <Link href="#contacts" passHref>
               <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" href={`#contacts`}>
                 {langState === 'en' && 'Contact '}
                 {langState === 'id' && 'Kontak '}
                 {langState === 'jp' && '連絡 '}
               </a>
-            </Link>
+            </Link>}
             {/* {langState === 'id' &&
               <a onClick={handleNav} className="px-3 py-2 hover:bg-gray-300 rounded-md" href={`https://justweb.muhrizqiardi.me`}>
                 Jasa Pembuatan Website{' '}
@@ -223,7 +223,7 @@ export default function Home(props) {
       </section>
 
       {/* Contacts */}
-      <section id="contacts" className="bg-light p-5 lg:px-48 lg:py-10 flex justify-center items-center border-b-8 border-primary">
+      {false && <section id="contacts" className="bg-light p-5 lg:px-48 lg:py-10 flex justify-center items-center border-b-8 border-primary">
         <div className="contact-list p-10 lg:px-20 lg:py-10 w-full flex flex-col items-center justify-center text-center ">
 
           <span className="handshake text-5xl mb-4">🤝</span>
@@ -261,7 +261,7 @@ export default function Home(props) {
             </div>
           </div>
         </div>
-      </section>
+      </section>}
 
       {/* Footer */}
       <footer className="px-20 py-9 bg-dark text-white text-center">
